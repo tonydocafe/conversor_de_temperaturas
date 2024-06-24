@@ -35,6 +35,6 @@ double Kelvin_para_Celsius(double K){
 double Kelvin_para_Fahrenheit(double K){
     double F;
     scanf("%lf",&K);
-    F = (K - 237.15) * (9.0/5.0) + 32.0;
+    F = (K - 273.15) * (9.0/5.0) + 32.0;
     return F;
 }
